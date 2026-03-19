@@ -1,23 +1,6 @@
-# 🏢 BridgeWork
+# BridgeWork
 
 <br/>
-
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Tech Stack](#tech-stack)
-- [System Architecture](#system-architecture)
-- [Database Schema](#database-schema)
-- [Folder Structure](#folder-structure)
-- [API Endpoints](#api-endpoints)
-- [Setup & Installation](#setup--installation)
-- [Environment Variables](#environment-variables)
-- [Branching & Commit Strategy](#branching--commit-strategy)
-- [Deployment](#deployment)
-
----
-
-## Overview
 
 The **BridgeWork** Platform enables organizations and professionals to connect seamlessly by providing tools to:
 
@@ -29,7 +12,7 @@ The **BridgeWork** Platform enables organizations and professionals to connect s
 
 ---
 
-## 🔗 Tech Stack
+## Tech Stack
 
 ### Why MERN?
 
@@ -53,7 +36,7 @@ MERN provides a **full JavaScript ecosystem** — unified language across fronte
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 ```text
 User (Browser)
@@ -77,7 +60,7 @@ MongoDB Atlas (Cloud DB)
 
 ---
 
-## 🗄 Database Schema
+## Database Schema
 
 ### Core Entities
 
@@ -101,7 +84,7 @@ MatchEngine —binds—> (MatchProfile, Job)
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```text
 BridgeWork/
@@ -132,7 +115,7 @@ BridgeWork/
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description | Auth |
 | :--- | :--- | :--- | :--- |
@@ -147,7 +130,7 @@ BridgeWork/
 
 ---
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 > **Prerequisites:** Node.js 18+, npm 9+, MongoDB Atlas account
 
@@ -174,7 +157,7 @@ npm run dev
 
 ---
 
-## 🔐 Environment Variables
+## Environment Variables
 
 **Frontend (`bridgework-app/.env`):**
 ```text
@@ -192,7 +175,7 @@ NODE_ENV=development
 
 ---
 
-## 🌿 Branching & Commit Strategy
+## Branching & Commit Strategy
 
 - `main`: Stable production-ready code.
 - `dev`: Primary development branch.
@@ -201,7 +184,7 @@ NODE_ENV=development
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 - **Frontend**: Automatically deployed via **Vercel** configured to watch the `main` branch. Environment variables populated in the Vercel Dashboard.
 - **Backend**: Containerized/Hosted on **Render**. Requires MongoDB Atlas IP configuration and corresponding `.env` setup.
