@@ -5,6 +5,7 @@ import Register from "./pages/Register";
 import PostJob from "./pages/PostJob";
 import Match from "./pages/Match";
 import Dashboard from "./pages/Dashboard";
+import Login from "./pages/Login";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/post-job" element={<PostJob />} />
             <Route path="/match" element={<Match />} />
