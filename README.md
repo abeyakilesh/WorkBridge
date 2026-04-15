@@ -3,7 +3,7 @@
 <br/>
 
 The **BridgeWork** Platform enables organizations and professionals to connect seamlessly by providing tools to:
-
+ 
 - **Create & manage job postings** with detailed requirements, company culture, and extensive employer contact info.
 - **Automated ID & Aadhaar Verification**: Embedded Machine Learning for OCR. Candidates can upload a PDF/PNG or use a live camera to snap their ID. The system automatically extracts text (Name, Aadhaar Number, Contact, Address) and auto-fills the registration forms. 
 - **Intelligent matching** that connects candidates to the right opportunities using comprehensive data points.
